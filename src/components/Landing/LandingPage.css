@@ -1,0 +1,152 @@
+/* Hero Section */
+.hero {
+    background-image: url('./pexels-yan-krukau-4458421.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* Add parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    /* Add fade-in animation */
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    /* Add hover animation */
+    transition: transform 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #FF8143;
+    /* Add hover animation */
+    transform: scale(1.05);
+  }
+  
+  /* Feature Showcase */
+  .feature-showcase {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .feature-card {
+    text-align: center;
+    width: 300px;
+    background-color: #f9f9f9; /* Use a contrasting background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px); /* Add a subtle hover effect */
+  }
+  
+  .feature-icon {
+    font-size: 3rem;
+    color: #FF5733;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .feature-description {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cta-section {
+    text-align: center;
+  }
+  
+  .cta-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #FF8143;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #FF5733;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-icons .fab {
+    font-size: 2rem;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons .fab:hover {
+    color: #FF5733;
+  }
+  
